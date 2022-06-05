@@ -74,7 +74,7 @@ function getStr1($a,$b,$c,$d){
         $a = @explode($a,$c)[$d];
         return @explode($b,$a)[0];
 }
-function
+function color(color = "default" , $text)
     {
         $arrayColor = array(
             'grey'      => '1;30',
