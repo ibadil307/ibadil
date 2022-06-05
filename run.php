@@ -28,7 +28,7 @@ ulang:
 			$hp = '6'.substr(trim($nohp), 1);
 		}
 		else {
-			$hp = '1'.substr(trim($nohp),0,11);
+			$hp = '1'.substr(trim($nohp),0,9);
 		}
 	}
 	$data = '{"email":"'.$email.'@gmail.com","name":"'.$nama.'","phone":"+'.$hp.'","signed_up_country":"ID"}';
